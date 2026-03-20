@@ -2,11 +2,7 @@
 
 ## 项目定位
 
-这是 Updrive 的 React 重写版，对应实际运行目录：
-
-- `/Users/sam/Code/DogeOW/updrive-react`
-
-当前界面迭代、联调和问题修复，默认都以这套 React 版本为准，直接在 `updrive-react/` 下修改。
+这是 [Updrive](http://github.com/dogeow/updrive) 的 React 重写版
 
 ## 技术栈
 
@@ -49,16 +45,6 @@ npm run build
 ```bash
 node --check server/index.js
 ```
-
-## 开发流程
-
-如果修改 React 版，按这个顺序：
-
-1. 直接在 `updrive-react/` 改代码
-2. 前端改动后运行 `npx eslint src/App.jsx` 或对应改动文件
-3. 运行 `npm run build`
-4. 如改了后端，运行 `node --check server/index.js`
-5. 如改了后端路由或服务端逻辑，重启 `updrive-react` 的 dev 服务
 
 ## 当前功能
 

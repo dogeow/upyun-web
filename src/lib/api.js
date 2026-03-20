@@ -92,7 +92,7 @@ export const api = {
     }
 
     if (metaResponse.status === 404) {
-      throw new Error('当前 API 服务还没有 /api/meta，请重启 updrive-react 的后端开发服务')
+      throw new Error('当前 API 服务还没有 /api/meta，请重启 upyun-web 的后端开发服务')
     }
 
     const contentType = metaResponse.headers.get('content-type') || ''

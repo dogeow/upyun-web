@@ -67,16 +67,16 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { api } from '@/lib/api'
 import { cn } from '@/lib/utils'
 
-const AUTH_HISTORY_KEY = 'updrive-react.auth-history'
-const PROFILE_KEY = 'updrive-react.profile'
-const TOKEN_KEY = 'updrive-react.token'
-const USAGE_KEY = 'updrive-react.usage'
-const VIEW_MODE_KEY = 'updrive-react.view-mode'
-const THEME_KEY = 'updrive-react.theme'
-const GRID_DENSITY_KEY = 'updrive-react.grid-density'
-const OPERATION_HISTORY_KEY = 'updrive-react.operation-history'
-const TASKS_KEY = 'updrive-react.tasks'
-const PROFILE_SETTINGS_KEY = 'updrive-react.profile-settings'
+const AUTH_HISTORY_KEY = 'upyun-web.auth-history'
+const PROFILE_KEY = 'upyun-web.profile'
+const TOKEN_KEY = 'upyun-web.token'
+const USAGE_KEY = 'upyun-web.usage'
+const VIEW_MODE_KEY = 'upyun-web.view-mode'
+const THEME_KEY = 'upyun-web.theme'
+const GRID_DENSITY_KEY = 'upyun-web.grid-density'
+const OPERATION_HISTORY_KEY = 'upyun-web.operation-history'
+const TASKS_KEY = 'upyun-web.tasks'
+const PROFILE_SETTINGS_KEY = 'upyun-web.profile-settings'
 const MAX_HISTORY_ITEMS = 30
 const MAX_TASK_ITEMS = 200
 const PROFILE_SETTINGS_DEFAULTS = {
